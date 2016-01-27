@@ -8,7 +8,7 @@ The
 controller</a>,
 <a href="https://github.com/ChiefTwoPencils/sprax-modal/blob/master/src/main/resources/static/js/ajax.js">
 Ajax</a>, and
-<a href="https://github.com/ChiefTwoPencils/sprax-modal/blob/master/src/main/resources/static/js/ajax.js">
+<a href="https://github.com/ChiefTwoPencils/sprax-modal/blob/master/src/main/resources/templates/something/list.html">
 view</a> with edit and delete modals and updating table.
 
 #### Run it:
