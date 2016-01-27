@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <title>Ajax Model Example</title>
+</head>
+<body>
+<div class="container">
+    <form th:action="@{/something/create}" th:object="${something}" th:method="post">
+        <fieldset>
+            <label for="name">Name</label>
+            <input id="name" type="text" th:field="*{name}"/>
+        </fieldset>
+        <div>
+            <a th:href="@{/something/list}">Cancel</a>
+            <button type="submit">Save</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
