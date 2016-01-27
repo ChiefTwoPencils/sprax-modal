@@ -1,5 +1,5 @@
 # sprax-modal
-Spring Boot + Ajax + Modals for entity edit and deletions plus table updates.
+Spring Boot + Ajax + Modals for entity edits and deletions plus table updates.
 
 ### Key points:
 
