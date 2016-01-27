@@ -66,7 +66,6 @@ function deleteEntity(entity) {
 }
 
 function updateTable(data) {
-    var anchor = "<a data-toggle='modal' data-target='#umodal' onclick=";
     $.ajax({
         dataType: "json",
         url: tableTarget,
