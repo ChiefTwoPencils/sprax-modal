@@ -74,9 +74,9 @@ function updateTable(data) {
             'Content-Type': 'application/json'
         },
         type: 'GET',
-        success: function (responce) {
+        success: function (response) {
             $('#table-body').empty();
-            $.each(responce, function (i, e) {
+            $.each(response, function (i, e) {
                 var end = e.id + ");'";
                 var edit = "'showEditModal(" + end;
                 var del = "'showDeleteModal(" + end;
